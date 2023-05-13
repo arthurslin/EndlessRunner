@@ -1,0 +1,51 @@
+{
+  "frames": [
+    {
+      "filename": "nin1",
+      "frame": { "x": 0, "y": 0, "w": 36, "h": 30 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 36, "h": 30 },
+      "sourceSize": { "w": 36, "h": 30 }
+    },
+    {
+      "filename": "nin2",
+      "frame": { "x": 0, "y": 31, "w": 36, "h": 30 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 36, "h": 30 },
+      "sourceSize": { "w": 36, "h": 30 }
+    },
+    {
+      "filename": "nin3",
+      "frame": { "x": 37, "y": 0, "w": 36, "h": 30 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 36, "h": 30 },
+      "sourceSize": { "w": 36, "h": 30 }
+    },
+    {
+      "filename": "nin4",
+      "frame": { "x": 37, "y": 31, "w": 36, "h": 30 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 36, "h": 30 },
+      "sourceSize": { "w": 36, "h": 30 }
+    },
+    {
+      "filename": "nin5",
+      "frame": { "x": 0, "y": 62, "w": 36, "h": 30 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 36, "h": 30 },
+      "sourceSize": { "w": 36, "h": 30 }
+    }
+  ],
+  "meta": {
+    "app": "https://www.leshylabs.com/apps/sstool/",
+    "version": "Leshy SpriteSheet Tool v0.8.4",
+    "image": "spritesheet.png",
+    "size": { "w": 73, "h": 92 },
+    "scale": 1
+  }
+}
