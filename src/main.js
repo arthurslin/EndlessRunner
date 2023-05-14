@@ -1,7 +1,13 @@
+// Arthur Lin
+// Game Name: Kunai Runner
+// Approximate hours spent on project: 18-25 hrs
+// My game utiltizes a finite amount of objects that are created and once the update() method is called
+// On these objects, we randomize the the spawning location using Phaser.Math.Between.
+// Not only that, the projectiles that the players have to dodge have random velocities.
+// The velocity has a base speed with an added velocity so that the projectiles have a balanced max and min velocity
+// The visual style is most definitely interesting, I made all of the assets myself except for the music
+// I like the style because I used my favorite colors (purple, cyan and red)
 
-// Submit a link to your GitHub repository that shows a history of multiple meaningful commits with descriptive messages (5) COMPLETE
-// Submit a playable link on GitHub pages (5) COMPLETE
-// In main.js (or equivalent), include a comment header with your name, game title, approximate hours spent on project, and your creative tilt justification (see below) (5) COMPLETE
 
 
 // Use multiple Scene classes (dictated by your game's style) (5) COMPLETE
@@ -28,7 +34,7 @@ let config = {
 
 }
 let game = new Phaser.Game(config);
-let keyW, keyA, keyS, keyD, keySpace, kunaiSpeed = 3, lastScore;
+let keyW, keyA, keyS, keyD, keySpace, kunaiSpeed = 2, lastScore;
 
 
 

@@ -3,7 +3,7 @@ class Player extends Phaser.GameObjects.Sprite {
     super(scene, x, y, texture, frame);
     // add object to existing scene
     scene.add.existing(this);
-    this.moveSpeed = 2;
+    this.moveSpeed = 2.5;
     this.canmove = true;
   }
   update() {

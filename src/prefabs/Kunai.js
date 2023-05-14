@@ -3,9 +3,10 @@ class Kunai extends Phaser.GameObjects.Sprite {
       super(scene, x, y, texture, frame);
       // add object to existing scene
       scene.add.existing(this);
+      this.speed = Phaser.Math.Between(1,2);
     }
     update() {
-        this.x  -= kunaiSpeed;
+        this.x  -= kunaiSpeed + this.speed;
         if(this.x <= this.width - 60) {
             this.reset();
         }
